@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Rotate Left",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testRotateLeft",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Rotate Right",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testRotateRight",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Duplicate Replace",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testDuplicateReplacer",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
